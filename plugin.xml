@@ -16,7 +16,7 @@
     </engines>
 
     <js-module name="SegmentCordovaPlugin" src="www/SegmentCordovaPlugin.js">
-        <clobbers target="Segment" />
+        <clobbers target="SegmentAnalytics" />
     </js-module>
 
     <platform name="android">
