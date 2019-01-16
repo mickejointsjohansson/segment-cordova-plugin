@@ -40,6 +40,6 @@
         <header-file src="src/ios/SegmentCordovaPlugin.h" target-dir="SegmentCordovaPlugin"/>
         <source-file src="src/ios/SegmentCordovaPlugin.m" target-dir="SegmentCordovaPlugin"/>
 
-        <framework src="Segment-Adjust" type="podspec" spec="~> 1.1.3"/>
+        <framework src="Segment-Adjust" embed="true" type="podspec" spec="~> 1.1.3"/>
     </platform>
 </plugin>
